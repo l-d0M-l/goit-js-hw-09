@@ -1,20 +1,17 @@
-.gallery {
+.tasks-list {
   list-style-type: none;
-
   display: flex;
-  flex-wrap: wrap;
-  width: 1128px;
-  gap: 24px;
-  margin: 0 auto;
+
+  gap: 20px;
+  padding-left: 0;
 }
-.gallery-image {
-  width: 360px;
-  height: 200px;
-}
-.back-btn {
+.tasks-li {
   background-color: teal;
   border-radius: 3px;
+
   padding: 5px;
+}
+a {
   color: white;
   font-size: 20px;
   text-decoration: none;
