@@ -91,9 +91,3 @@ gallery.insertAdjacentHTML('beforeend', galleryCards);
 
 new SimpleLightbox('.js-gallery a', { captionsData: 'alt', captionDelay: 250 });
 
-// обробка кліку(відміна скачування)
-gallery.addEventListener('click', galleyClickHandler);
-
-function galleyClickHandler(event) {
-  event.preventDefault();
-}
